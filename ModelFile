@@ -1,0 +1,13 @@
+FROM qwen3:0.6b
+
+PARAMETER temperature 0
+PARAMETER seed 42
+
+# Context size
+PARAMETER num_ctx 4096
+
+# Run on terminal
+# ollama create marcos_model -f ModelFile
+
+# Use the model
+# ollama run marcos_model

@@ -62,3 +62,5 @@ echo ""
 echo "To manually start Ollama in another terminal:"
 echo "  ollama serve"
 echo ""
+
+# ollama run qwen3:0.6b
